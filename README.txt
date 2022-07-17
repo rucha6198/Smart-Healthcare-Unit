@@ -9,8 +9,8 @@ Script Folder:  Contains all PDDL files and Plans
 
 
 AI Planning and MQTT Branch: Publisher Subscriber &  AI planning generator
-	publisher.py - Exected from Rpi
-	Subscriber.py - Exected on laptop 1
+	publisher.py - Executed from Rpi
+	Subscriber.py - Executed on laptop 1
 
 Dashboard Branch: Smart healthcare Unit GUI and CSV writer
 	csv_writer.py - Executed on laptop 2
