@@ -19,7 +19,7 @@ humindity_sp = 40
 #mqttBroker = "mqtt.eclipse.org"
 #mqttBroker = "mqtt.eclipseprojects.io"
 mqttBroker = "192.168.1.108"
-client = mqtt.Client("Smartphone")                      #Create an object
+client = mqtt.Client("Hospital")                      #Create an object
 
 #****************************************** Parse file defined *************************************
 def parseFile(filename):                            # extracting plan from the generated plan
