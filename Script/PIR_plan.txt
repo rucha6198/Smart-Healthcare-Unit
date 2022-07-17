@@ -1,0 +1,1 @@
+(switchofflight pir_low p_high p_low)

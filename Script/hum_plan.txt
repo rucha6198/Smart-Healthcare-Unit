@@ -1,0 +1,1 @@
+(switchoffhumidifier hum_high h_high h_high)

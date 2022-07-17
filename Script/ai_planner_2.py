@@ -2,6 +2,7 @@
 # Called in csv_ai_planner_1.py
 
 import requests, sys
+
 print("--------------------------------")
 print(sys.argv[1])
 print(sys.argv[2])

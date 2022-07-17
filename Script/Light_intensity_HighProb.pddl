@@ -12,6 +12,6 @@
     (isBrightnessSensLow l_low)
 )
 
-(:goal (off_led l_high)
+(:goal (on_led l_high)
 )
 )

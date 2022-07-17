@@ -12,6 +12,6 @@
     (isPresSensLow p_low)
 )
 
-(:goal (off_LED p_high)
+(:goal (on_LED p_high)
 )
 )

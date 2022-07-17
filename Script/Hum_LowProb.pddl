@@ -1,17 +1,17 @@
-(define (problem TempProblem) (:domain temp)
+(define (problem HumProblem) (:domain humidity)
 
 (:objects 
- temp_high temp_low temp_ambient -temperature
- t_high t_low t_none -temp_sensor
+ hum_high hum_low hum_ambient -hum
+ h_high h_low h_none -hum_sensor
 )
 
 (:init
-    (isTempHigh temp_high)
-    (isTempSensHigh t_high)
-    (isTempLow temp_low)
-    (isTempSensLow t_low)
+    (isHumHigh hum_high)
+    (isHumSensHigh h_high)
+    (isHumLow hum_low)
+    (isHumSensLow h_low)
 )
 
-(:goal (on_heater t_low)
+(:goal (on_humidifier h_low)
 )
 )

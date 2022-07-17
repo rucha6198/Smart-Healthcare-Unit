@@ -12,6 +12,6 @@
     (isHumSensLow h_low)
 )
 
-(:goal (off_humidifier h_low)
+(:goal (off_humidifier h_high)
 )
 )
